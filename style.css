@@ -1,0 +1,486 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.leftLogo{
+    background: #FAF3E3;
+}
+.leftIm{
+    width: 489px !important;
+    height: auto;
+}
+.rightIm{
+    width: 100%;
+}
+.leftIm h1{
+    text-align: center;
+    color:#16a085;
+}
+.leftIm h2{
+    text-align: center;
+    color:#3498db ;
+}
+.leftIm p{
+    text-align: center;
+    color:#778ca3;
+}
+.leftIm h3{
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+    color: #f1828d;
+}
+.rightIm{
+    background: #dfe4ea;
+    border-style:solid;border-color:#00a8ff #95afc0  #dfe6e9 #eb3b5a;
+    width: 100%;
+    height: 100vh;
+    border-radius: 2%;
+    position: relative;
+   margin-top: 10px;
+}
+.rightIm ul {
+    position: absolute;
+   margin-top: 10px;
+   background: #f5f6fa;
+   width: 255px;
+   height: auto;
+   text-align: center;
+ 
+  box-shadow: 1px 4px 2px 2px #74b9ff;
+  
+}
+
+.rightIm ul li{
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    background:#c7ecee;
+   text-decoration: none;
+   border-radius: 5%;
+ }
+ .fa-facebook{
+    background: #3b5998;
+    color: #ffffff;
+ }
+ .fa-twitter{
+     background: #55acee;
+     color: #ffffff;
+ }
+ .fa-github{
+     background:#4078c0 ;
+     color: #ffffff;
+ }
+ a i{
+     transition: all .4s Linear;
+ }
+ .fa-facebook:hover{
+    transform: scale(1.4);
+     background: #1778F2;
+ }
+ .fa-github:hover{
+    transform: scale(1.4);
+    background: #2c3e50;
+ }
+ 
+ .fa-twitter:hover{
+    transform: scale(1.4);
+    background:#1DA1F2;
+ }
+ .name i{
+     font-size: 50px;
+background: #2d3436;
+ }
+ .name h3{
+    text-transform: uppercase;
+    background: #F1828D;
+    color: #222f3e;
+    
+ }
+ .name p{
+     background: #FCD0BA;
+     color: #222f3e;
+ }
+ .Gmail i{
+font-size: 50px;
+background: #2d3436;
+ }
+ .Gmail p{
+     background: #765D69;
+     
+ }
+/* start header area */
+header#header-part{
+ display: flex;
+ justify-content: space-between;
+}
+
+/* header#header-part{
+    width: 100%;
+    min-width: 68%;
+    box-shadow: 0px 0px 2px #efececcf;
+} */
+
+nav.Primary-Navigation{
+    width: 84%;
+    float: right;
+}
+nav.Primary-Navigation>ul{
+    float: right;
+    padding-right: 15px;
+}
+nav.Primary-Navigation>ul>li{
+    display: inline-block;
+    float: left;
+}
+nav.Primary-Navigation>ul>li>a{
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 9px 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #218c74;
+    font-weight: 600;
+}
+nav.Primary-Navigation>ul>li>a:hover{
+    color:  #3c3939;
+}
+.leftLogo img{
+    width: 90px;
+    padding-left: 19px;
+}
+nav.Primary-Navigation>ul>li::after{
+    content: "";
+    width: 0%;
+    height: 2px;
+    background:#778ca3 ;
+    display: block;
+    transition: all 0.5s;
+}
+nav.Primary-Navigation>ul>li:hover::after{
+    width: 100%;
+}
+
+ /* header Area End  */
+
+ /* who im section code beLo */
+ section#WhoIm{
+     width: 100%;
+     overflow: hidden;
+     display: flex;
+ }
+.leftIm{
+    width: 50%;
+    float: left;
+}
+.rightIm{
+    float: right;
+    width: 50%;
+    height: auto;
+}
+.leftIm img{
+    width: 285px;
+    height: auto;
+}
+rightIm img{
+    width: 285px;
+    height: auto;
+}
+
+ /* about me section code start */
+
+ .rightAbout{
+   height: auto;
+    width: 50%;
+    float: right;
+    margin-top: 2%;
+    background: #2980b9;
+    color: #ffffff;
+    padding: 10px;
+    background-clip: padding-box;
+    border: 3px solid #a4b0be;
+}
+.
+
+ .rightAbout h2{
+     text-transform: uppercase;
+     font-weight: bold;
+     font-style: italic;
+     text-align: center;
+     text-decoration: underline;
+     color: #569FFF;
+     }
+ section#aboutMe{
+    overflow: hidden;
+    width: 100%;
+    border-top:12px solid #f3f2f2
+}
+#aboutMe{
+    display: flex;
+}
+
+
+ /* .leftAboutMe{
+    width: 20%;
+    padding-left: 26px;
+    float: left;
+    
+} */
+
+.leftAboutMe{
+   margin-top: 2%;
+  box-sizing: border-box;
+  border-style: solid;border-color: #25CCF7 #718093 #0097e6 #eb2f06;
+    border-width: 5px;
+    background: url(images/wp3203376.jpg);
+   width: 419px;
+   height: auto;
+}
+.name1 img{
+width: 255px;
+height: 300px;
+}
+.name2 img{
+    width: 355px;
+    height: 285px;
+}
+
+.rightAbout>h2{
+padding: 15px 0px;
+}
+.rightAbout>p{
+    line-height: 21px;
+    margin: 18px 0px;
+    text-align: justify;
+    background:#5AA0FF ;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    
+}
+.rightAbout>h3{
+    background: #FF9FF3;
+    color: #ffffff;
+    
+}
+
+button.Btn_about{
+    background: #00a3a4;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.service-Heading h2{
+    font-size:50px;
+   
+     text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    background: #EE5353;
+    color: #ffffff;
+    
+   
+}
+.service-Heading p{
+    background:#8AC7C0;
+}
+.fullservicespart{
+    overflow:hidden;
+  width: 100%;
+  background: #FAF5E7;
+  
+}
+.servicepart{
+width: 33%;
+float:left;
+margin:auto;
+text-align:center;
+
+box-shadow:0px 0px 7px 2px #ededed;
+}
+.servicepart>i{
+    font-size: 55px;
+    margin: 15px;
+    background: #dfdfdf;
+    height: 70px;
+    width: 87px;
+    border-radius: 50%;
+    border-top: 20px;
+    padding-top: 10px;
+} 
+
+.servicepart>p{
+    background: #765d69;;
+    background-clip: content-box;
+    color: #ffffff;
+    border: 2px solid black;
+    background-clip: padding-box;
+    padding: 15px;
+}
+.servicepart>h3{
+    padding: 6px 0px;
+}
+/* skill section code */
+section#skillsection{
+background: #f5f6f8;
+overflow: hidden;
+padding: 20px 20px;
+}
+.leftsectionskills{
+    width: 48%;
+    float: left;
+}
+.Rightsectionskills{
+    width: 48%;
+    float: right;
+    
+}
+.leftsectionskills>h2{
+    color: #001149;
+    font-size: 30px;
+    
+}
+p.skp1{
+    line-height: 25px !important;
+    text-align: justify;
+    padding: 20px 0px;
+}
+.leftsectionskills>p{
+    line-height: 30px;
+}
+
+.hirebtn{
+    border-radius: 22px;
+    margin-top: 20px;
+     background: #18a1d6 !important;
+    /* background: linear-gradient(180deg,transparent,#2196f3); */
+}
+#progresssection{
+    margin-top: 75px;
+}
+
+div#progresssection{
+    padding-top: 14px;
+}
+.mainProgress{
+    height: 23px;
+    background: #FFFFFF;
+    border-radius: 5%;
+}
+.MyProgressItem{
+    padding: 8px 0px;
+}
+.innerProgress{
+float: left;
+height: 23px;
+border-radius: 5px 0px 0px 5px;
+}
+.innerProgress.htmlProg{
+    background: #3dc1d3;
+    width: 90%;
+    float: left;
+}
+.innerProgress.jqueryProg{
+
+    background: #ffa801;
+    width: 76%;
+}
+.innerProgress.wpProg{
+    background: #d1d8e0;
+    width: 75%;
+}
+.innerProgress.JoomlaProg{
+    width: 87%;
+    background: #ced6e0;
+}
+.innerProgress.seoProg{
+    background:#ced6e0 ;
+    width: 65%;
+}
+/* contact section */
+section#Fullcontact{
+    overflow: hidden;
+    background:#f1f2f6 ;
+    border: 1px solid greenyellow;
+}
+.leftcontact{
+    width: 50%;
+    float: left;
+}
+.rightcontact{
+    width: 50%;
+    float: right;
+}
+h2.HireTxt{
+    width: 404px;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 10px;
+    background: #d1ccc0;
+    color: #ffffff;
+    border-radius: 5%;
+}
+.leftcontact>p{
+padding: 15px 0px;
+text-align: justify;
+}
+.ContactForm>form>input{
+    display: block;
+    width: 91%;
+    float: left;
+    margin: 10px 0px;
+    height: 30px;
+    border: 2px solid #EAEAEA;
+    outline: none;
+    border-radius: 4px;
+}
+.ContactForm>form>textarea{
+    display: block;
+    width: 91%;
+    float: left;
+    margin: 10px 0px;
+    border: 2px solid #EAEAEA;
+    outline: none;
+    border-radius: 4px;
+}
+
+input.ContactBtn{
+    background: #2bc4ff;
+    /* background: #f8004e; */
+    color: white;
+    width: 200px !important;
+    height: 45px !important;
+    font-size: 20px;
+    border-radius: 8px !important;
+    outline: none !important;
+    cursor: pointer;
+}
+
+ .rightcontact{
+    width: 272px;
+    height: 272px;
+    background: #2bc4ff;
+    /* background: #2980b9; */
+  background-image: url(images/roar_V150_20210123_092737.jpg);
+   background-size: 250px 250px;
+   background-repeat: no-repeat;
+   margin: 90px 10px;
+   border-style:solid;border-color:#f7f1e3 #c7ecee #95afc0 #95a5a6;border-width: 5px;
+   background-origin:content-box;
+   border-radius: 50%;
+}
+.servicepart img{
+    border-radius: 45%;
+}
+  
+  
